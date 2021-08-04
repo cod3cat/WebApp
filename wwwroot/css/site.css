@@ -1,0 +1,46 @@
+﻿body {
+    font-family: 'Segoe UI'
+}
+
+input, textarea {
+    font-size: 18px;
+    width: 200px;
+}
+
+#theForm {
+    background-color: lightgray;
+}
+
+ #theForm input[type = submit] {
+    background-color: green;
+    color: white;
+}
+
+label {
+    font-size: 16px;
+}
+
+.product-props {
+    font-size: small;
+}
+
+ul.product-props {
+    list-style-type: none;
+}
+
+.product-info {
+    border: 1px solid gray;
+    display: inline-block;
+    padding: 8px 2px;
+    margin: 2px;
+    width: 450px;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+ .product-info img{
+     margin: 3px;
+     float: left;
+     border: 3px solid black;
+     max-width: 150px;
+ }
